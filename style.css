@@ -1,0 +1,94 @@
+* {
+  color: gray;
+}
+
+body {
+  border: 10px solid lightgray;
+  border-radius: 5px;
+  background-color: black;
+  margin-top: 225px;
+}
+
+div {
+  flex-grow: 1;
+  border-color: lightblue;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+input {
+  border: none;
+  border-color: transparent;
+  height: 50px;
+  outline: none;
+}
+
+
+#name, #company, #phone, #email, #avail, #skills, #exper, #color, #lang {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  width: 48%;
+  border-bottom: 1px solid gray;
+}
+
+#company {
+  width: 48%;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#phone {
+  width: 33%;
+}
+#email, #avail {
+  width: 33%;
+  border-left: 1px solid gray;
+}
+
+#avail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+#skills {
+  width: 24%;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+#availability label {
+  align-self: flex-start;
+  outline: 0;
+  border: 0;
+}
+
+
+#exper, #color, #lang {
+  width: 24%;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+}
+
+#button {
+  background-color: darkseagreen;
+  color: white;
+}
